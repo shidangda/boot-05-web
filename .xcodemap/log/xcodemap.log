@@ -1,0 +1,44 @@
+2025-01-08 01:53:16 WARN main - Start the recorder...
+2025-01-08 01:53:17 WARN XCodeMap-Task - Col class num:161 other classNum:539
+2025-01-08 01:53:17 WARN Thread-6 - Re-transform 50 classes cost 485 ms
+2025-01-08 01:53:18 WARN Thread-13 - Re-transform 50 classes cost 586 ms
+2025-01-08 01:53:18 WARN Thread-3 - Re-transform 50 classes cost 648 ms
+2025-01-08 01:53:18 WARN Thread-2 - Re-transform 50 classes cost 748 ms
+2025-01-08 01:53:18 WARN Thread-4 - Re-transform 50 classes cost 779 ms
+2025-01-08 01:53:18 WARN Thread-9 - Re-transform 50 classes cost 801 ms
+2025-01-08 01:53:18 WARN Thread-12 - Re-transform 50 classes cost 802 ms
+2025-01-08 01:53:18 WARN Thread-5 - Re-transform 50 classes cost 832 ms
+2025-01-08 01:53:18 WARN Thread-8 - Re-transform 50 classes cost 864 ms
+2025-01-08 01:53:18 WARN Thread-10 - Re-transform 50 classes cost 917 ms
+2025-01-08 01:53:18 WARN Thread-11 - Re-transform 50 classes cost 963 ms
+2025-01-08 01:53:18 WARN Thread-7 - Re-transform 50 classes cost 986 ms
+2025-01-08 01:53:18 WARN Thread-1 - Re-transform 50 classes cost 986 ms
+2025-01-08 01:53:18 WARN Thread-14 - Re-transform 50 classes cost 1064 ms
+2025-01-08 01:53:18 WARN main - Install XCodeMap Agent cost 2664 ms
+2025-01-08 01:53:20 WARN XCodeMap-Transform-0 - Cannot compute frames for classname:org.springframework.boot.logging.log4j2.Log4J2LoggingSystem message:xcodemap.shaded.b.s: org.apache.logging.log4j.core.config.composite.CompositeConfiguration
+2025-01-08 01:53:27 WARN XCodeMap-Transform-0 - The class bytes maybe not validated className:com/atguigu/boot/Boot05WebApplication$$SpringCGLIB$$0 version:52 because of Error at instruction 486: Stack map frame incompatible with frame at instruction 489 (incompatible t
+2025-01-08 01:53:30 WARN XCodeMap-Transform-4 - Cannot compute frames for classname:org.springframework.core.ReactiveAdapterRegistry$ReactorAdapter message:xcodemap.shaded.b.s: reactor.core.publisher.Flux
+2025-01-08 02:23:23 WARN Thread-0 - Graceful shutdown..., metrics a:8095	b:4802	c:696	d:1970	e:122580	f:146354	g:536	h:0	i:579	j:464	k:3320	l:69	m:2028038	n:966467	o:3	p:4	q:290060	r:320373	s:6180	t:64	u:3	v:63	
+2025-01-08 02:23:24 WARN Thread-0 - Stop the recorder...
+2025-01-08 02:23:45 WARN main - Start the recorder...
+2025-01-08 02:23:46 WARN XCodeMap-Task - Col class num:157 other classNum:541
+2025-01-08 02:23:46 WARN Thread-6 - Re-transform 50 classes cost 483 ms
+2025-01-08 02:23:46 WARN Thread-13 - Re-transform 50 classes cost 512 ms
+2025-01-08 02:23:47 WARN Thread-12 - Re-transform 50 classes cost 640 ms
+2025-01-08 02:23:47 WARN Thread-10 - Re-transform 50 classes cost 672 ms
+2025-01-08 02:23:47 WARN Thread-3 - Re-transform 50 classes cost 697 ms
+2025-01-08 02:23:47 WARN Thread-4 - Re-transform 50 classes cost 713 ms
+2025-01-08 02:23:47 WARN Thread-9 - Re-transform 50 classes cost 758 ms
+2025-01-08 02:23:47 WARN Thread-11 - Re-transform 50 classes cost 784 ms
+2025-01-08 02:23:47 WARN Thread-8 - Re-transform 50 classes cost 819 ms
+2025-01-08 02:23:47 WARN Thread-1 - Re-transform 50 classes cost 883 ms
+2025-01-08 02:23:47 WARN Thread-5 - Re-transform 50 classes cost 908 ms
+2025-01-08 02:23:47 WARN Thread-2 - Re-transform 50 classes cost 939 ms
+2025-01-08 02:23:47 WARN Thread-7 - Re-transform 50 classes cost 990 ms
+2025-01-08 02:23:47 WARN Thread-14 - Re-transform 48 classes cost 1066 ms
+2025-01-08 02:23:47 WARN main - Install XCodeMap Agent cost 2432 ms
+2025-01-08 02:23:49 WARN XCodeMap-Transform-0 - Cannot compute frames for classname:org.springframework.boot.logging.log4j2.Log4J2LoggingSystem message:xcodemap.shaded.b.s: org.apache.logging.log4j.core.config.composite.CompositeConfiguration
+2025-01-08 02:23:55 WARN XCodeMap-Transform-0 - The class bytes maybe not validated className:com/atguigu/boot/Boot05WebApplication$$SpringCGLIB$$0 version:52 because of Error at instruction 486: Stack map frame incompatible with frame at instruction 489 (incompatible t
+2025-01-08 02:23:59 WARN XCodeMap-Transform-4 - Cannot compute frames for classname:org.springframework.core.ReactiveAdapterRegistry$ReactorAdapter message:xcodemap.shaded.b.s: reactor.core.publisher.Flux
+2025-01-08 02:32:18 WARN Thread-0 - Graceful shutdown..., metrics a:8177	b:4880	c:694	d:2433	e:401830	f:147491	g:536	h:0	i:1669	j:1331	k:3621	l:54	m:1888225	n:991236	o:3	p:4	q:293785	r:318715	s:3691	t:183	u:3	v:180	
+2025-01-08 02:32:18 WARN Thread-0 - Stop the recorder...

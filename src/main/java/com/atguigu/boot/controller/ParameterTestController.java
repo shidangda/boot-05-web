@@ -1,14 +1,20 @@
 package com.atguigu.boot.controller;
 
-import jakarta.servlet.http.Cookie;
+import com.atguigu.boot.bean.Person;
 import org.springframework.web.bind.annotation.*;
 
+import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @RestController
 public class ParameterTestController {
+
+    @PostMapping("/saveuser")
+    public Person savePerson(Person person) {
+        return person;
+    }
 
     @GetMapping("/car/{id}/owner/{username}")
     public Map<String, Object> getCar(@PathVariable("id") int id,
@@ -50,4 +56,13 @@ public class ParameterTestController {
         return map;
 
     }
+
+    public void testInstance(Type targetType) {
+        boolean b = targetType instanceof Class;
+        Class targetClass = targetType instanceof Class clazz ? clazz : null;
+        targetClass = (targetType instanceof Class) ? (Class) targetType : null;
+
+    }
+
+
 }
