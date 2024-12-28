@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>欢迎黄小珍太太！</h1>
+
+<ul>
+    <a href="car/3/owner/lisi?age=18&inters=basketball&inters=game">/car/{id}/owner/{username}</a>
+
+</ul>
+
+/cars/{path}?xxx=xxx&aaa=ccc queryString 查询字符串。 @RequestParam <br/>
+/cars/{path;low=34;brand=byd,audi,yd}   矩阵变量 <br/>
+
+<a href="/cars/sell;low=34;brand=byd,audi,yd">@MatrixVariable</a>
+<a href="/cars/sell;low=34;brand=byd;brand=audi;brand=yd">@MatrixVariable</a>
+<a href="/boss/1;age=20/2;age=10">@MatrixVariable</a>
+
+
+
+<form action="/save" method="post">
+    测试@RequestBody获取数据 <br>
+    用户名：<input name="username"/> <br>
+    邮箱：<input name="email"/>
+    <input type="submit" value="提交"/>
+</form>
+
+
+测试REST风格：
+<form action="/user" method="post">
+    <input  value="REST-POST 提交" type="submit"/>
+</form>
+<form action="/user" method="post">
+    <input  name="_method" type="hidden" value="DELETE"/>
+    <input  value="REST-DELETE 提交" type="submit"/>
+</form>
+<form action="/user" method="post">
+    <input  name="_method" type="hidden" value="PUT"/>
+    <input  value="REST-PUT 提交" type="submit"/>
+</form>
+
+
+</body>
+</html>

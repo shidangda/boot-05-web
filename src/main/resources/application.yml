@@ -1,0 +1,17 @@
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**  会导致欢迎页失效
+#  web:
+#    resources:
+#      static-locations: [/abc/]
+
+spring:
+  web:
+    resources:
+      add-mappings: true
+      cache:
+        period: 3600
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
